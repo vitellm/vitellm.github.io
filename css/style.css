@@ -1,0 +1,142 @@
+@font-face {
+    font-family: WebsiteFont;
+    src: url(websiteFont.ttf);
+}
+
+html, body{
+    height:100%;
+    font-family: "WebsiteFont","Helvetica Neue", Arial !important;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    background: url("../img/tesla.PNG");
+    /*background-repeat: repeat;*/
+    background-size: cover;
+    /*background-size: contain;*/
+}
+a{
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+#title{
+    margin-bottom:0px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#wrap{
+    width: 900px; 
+    margin: 0 auto;
+}
+
+.row{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+
+.social{
+    color: #f8d749;
+    /*font-size: 0.75em;*/
+    font-weight: bold;
+    font-size: 12px;
+    padding-right:30px;
+    cursor: pointer;
+}
+
+#name{
+    color: #f8d749;
+    /*font-size: 0.75em;*/
+    font-weight: bold;
+    float: right;
+    letter-spacing: 1px;
+    cursor: default;
+}
+
+#name-img{
+    width:110px; 
+    margin-top:-10px;
+    padding-bottom:15px;
+}
+
+#link-wrap{
+    display: inherit; 
+}
+
+@media (min-width: 0px){
+    .social{
+        font-size: 3px;
+    }
+
+    #link-wrap{
+        margin:0 auto;
+    }
+    
+    #name-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 367px){
+    .social{
+        font-size: 4px;
+    }
+}
+
+@media (min-width: 395px){
+    .social{
+        font-size: 5px;
+    }
+}
+
+@media (min-width: 465px){
+    .social{
+        font-size: 6px;
+    }
+}
+
+@media (min-width: 465px){
+    .social{
+        font-size: 7px;
+    }
+}
+
+@media (min-width: 521px){
+    .social{
+        letter-spacing: 1px;
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 580px){
+    .social{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px){
+
+    #name-img{
+        float:right;
+    }
+    #link-wrap{
+        margin: inherit;
+    }
+}
+
+@media (min-width: 850px){
+    .social{
+        font-size: 12px;
+    }
+}
+
+
+
+
