@@ -70,8 +70,8 @@ a{
 
 @media (min-width: 0px){
     .social{
-        font-size: 6px;
-        padding-right:8px;
+        font-size: 5px;
+        padding-right:6px;
     }
 
     #link-wrap{
@@ -86,37 +86,39 @@ a{
 }
 @media (min-width: 325px){
     .social{
-        font-size: 7px;
-        padding-right:9px;
+        font-size: 6px;
+        padding-right:6px;
     }
 }
 
 @media (min-width: 351px){
     .social{
-        padding-right:13px;
+        padding-right:9px;
     }
 }
 
-@media (min-width: 367px){
+@media (min-width: 370px){
     .social{
-        padding-right:17px;
+        font-size: 7px;
+        padding-right:10px;
     }
 }
 
 @media (min-width: 395px){
     .social{
-        padding-right:20px;
+        padding-right:16px;
     }
 }
 
 @media (min-width: 425px){
     .social{
-        padding-right:30px;
+        padding-right:24px;
     }
 }
 
 @media (min-width: 521px){
     .social{
+        padding-right:30px;
         letter-spacing: 1px;
     }
 }
