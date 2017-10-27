@@ -59,8 +59,6 @@ a{
 }
 
 #name-img{
-    width:110px; 
-    margin-top:-10px;
     padding-bottom:15px;
 }
 
@@ -82,6 +80,10 @@ a{
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    #name-img{
+        width: 70px;
+        margin-top: -15px;
     }
 }
 @media (min-width: 325px){
@@ -121,6 +123,10 @@ a{
         padding-right:30px;
         letter-spacing: 1px;
     }
+    #name-img{
+        width:100px; 
+        margin-top:-8px;
+    }   
 }
 
 @media (min-width: 580px){
