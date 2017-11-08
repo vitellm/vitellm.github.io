@@ -89,14 +89,13 @@ a{
 
     #link-wrap{
         margin:0 auto;
+        padding-top: 5px;
     }
     
     #name-img{
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
-    #name-img{
         width: 70px;
         margin-top: -15px;
     }
@@ -111,9 +110,6 @@ a{
     }
     #name-container{
         padding-right:15px;
-    }
-    #link-wrap{
-        padding-top: 21px;
     }
     #perfume-img{
         width: 100px;
