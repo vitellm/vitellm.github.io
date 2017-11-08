@@ -12,7 +12,7 @@ body {
     margin: 0px;
     padding: 0px;
 
-    background: url("../img/tesla-bg.png");
+    /*background: url("../img/tesla-bg.png");*/
     /*background-repeat: repeat;*/
     background-size: cover;
     /*background-size: contain;*/
@@ -41,7 +41,7 @@ a{
 
 
 .social{
-    color: #f8d749;
+    color: #fd0f73;
     /*font-size: 0.75em;*/
     font-weight: bold;
     font-size: 12px;
@@ -50,7 +50,7 @@ a{
 }
 
 #name{
-    color: #f8d749;
+    color: #fd0f73;
     /*font-size: 0.75em;*/
     font-weight: bold;
     float: right;
@@ -85,6 +85,10 @@ a{
         width: 70px;
         margin-top: -15px;
     }
+    .vid iframe{
+        width: 224px;
+        height: 126px;
+    }
 }
 @media (min-width: 325px){
     .social{
@@ -110,6 +114,10 @@ a{
     .social{
         padding-right:16px;
     }
+    .vid iframe{
+        width: 288px;
+        height: 162px;
+    }
 }
 
 @media (min-width: 425px){
@@ -126,7 +134,7 @@ a{
     #name-img{
         width:70px; 
         margin-top:-1.5px;
-    }   
+    } 
 }
 
 @media (min-width: 580px){
@@ -135,6 +143,10 @@ a{
     }
     .col-md-9.order-sm-2.order-md-1{
         padding-left:inherit;
+    }
+    .vid iframe{
+        width: 400px;
+        height: 225px;
     }
 }
 
@@ -149,11 +161,22 @@ a{
     .col-md-9.order-sm-2.order-md-1{
         padding-left:30px;
     }
+    /*.vid iframe{
+        width: 560px;
+        height: 315px;
+    }*/
 }
 
 @media (min-width: 850px){
     .social{
         font-size: 12px;
+    }
+}
+
+@media (min-width: 1000px){
+    .vid iframe{
+        width: 720px;
+        height: 405px;
     }
 }
 
