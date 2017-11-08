@@ -5,7 +5,7 @@
 
 html, body{
     height:100%;
-    font-family: "WebsiteFont","Helvetica Neue", Arial !important;
+    font-family: Arial !important;
 }
 
 body {
@@ -89,6 +89,14 @@ a{
         width: 224px;
         height: 126px;
     }
+    #credits{
+        top: -167px;
+        left: -35px;
+        width: 53%;
+    }
+    #name-container{
+        padding-right:15px;
+    }
 }
 @media (min-width: 325px){
     .social{
@@ -117,6 +125,11 @@ a{
     .vid iframe{
         width: 288px;
         height: 162px;
+    }
+    #credits{
+        top: -212px;
+        left: -46px;
+        width: 53%;
     }
 }
 
@@ -148,6 +161,11 @@ a{
         width: 400px;
         height: 225px;
     }
+    #credits{
+        top: -292px;
+        left: -60px;
+        width: 53%;
+    }
 }
 
 @media (min-width: 768px){
@@ -161,10 +179,18 @@ a{
     .col-md-9.order-sm-2.order-md-1{
         padding-left:30px;
     }
-    /*.vid iframe{
+    .vid iframe{
         width: 560px;
         height: 315px;
-    }*/
+    }
+    #credits{
+        top: -389px;
+        left: -60px;
+        width: 43%;
+    }
+    #name-container{
+        padding-right:45px
+    }
 }
 
 @media (min-width: 850px){
@@ -177,6 +203,11 @@ a{
     .vid iframe{
         width: 720px;
         height: 405px;
+    }
+    #credits{
+        top: -517px;
+        width: 53%;
+        left: -100px;
     }
 }
 
