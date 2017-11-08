@@ -23,7 +23,6 @@ a{
 }
 
 .credits-block p{
-    font-size: 12px;
     margin-bottom: 5px !important;
     letter-spacing: 1px;
     color: #fd0f73;
@@ -81,8 +80,11 @@ a{
 
 @media (min-width: 0px){
     .social{
-        font-size: 5px;
-        padding-right:6px;
+        font-size: 6px;
+        padding-right:10px;
+    }
+    .credits-block p{
+        font-size: 6px;
     }
 
     #link-wrap{
@@ -119,8 +121,11 @@ a{
 }
 @media (min-width: 325px){
     .social{
-        font-size: 6px;
-        padding-right:20px;
+        font-size: 7px;
+        padding-right:15px;
+    }
+    .credits-block p{
+        font-size: 7px;
     }
 }
 
@@ -132,8 +137,11 @@ a{
 
 @media (min-width: 370px){
     .social{
-        font-size: 7px;
+        font-size: 8px;
         padding-right:20px;
+    }
+    .credits-block p{
+        font-size: 8px;
     }
 }
 
@@ -170,7 +178,7 @@ a{
 }
 
 @media (min-width: 580px){
-    .social{
+    .social, .credits-block p{
         font-size: 10px;
     }
     .col-md-9.order-sm-2.order-md-1{
@@ -219,7 +227,7 @@ a{
 }
 
 @media (min-width: 850px){
-    .social{
+    .social, .credits-block p{
         font-size: 12px;
     }
 }
