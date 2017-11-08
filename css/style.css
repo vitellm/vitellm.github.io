@@ -97,30 +97,36 @@ a{
     #name-container{
         padding-right:15px;
     }
+    #link-wrap{
+        padding-top: 21px;
+    }
+    #perfume-img{
+        width: 100px;
+    }
 }
 @media (min-width: 325px){
     .social{
         font-size: 6px;
-        padding-right:6px;
+        padding-right:20px;
     }
 }
 
 @media (min-width: 351px){
     .social{
-        padding-right:9px;
+        padding-right:20px;
     }
 }
 
 @media (min-width: 370px){
     .social{
         font-size: 7px;
-        padding-right:10px;
+        padding-right:20px;
     }
 }
 
 @media (min-width: 395px){
     .social{
-        padding-right:16px;
+        padding-right:20px;
     }
     .vid iframe{
         width: 288px;
@@ -166,6 +172,9 @@ a{
         left: -60px;
         width: 53%;
     }
+    #perfume-img{
+        width: 150px;
+    }
 }
 
 @media (min-width: 768px){
@@ -190,6 +199,9 @@ a{
     }
     #name-container{
         padding-right:45px
+    }
+    #link-wrap{
+        padding-top: 0px;
     }
 }
 
