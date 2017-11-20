@@ -1,6 +1,7 @@
 html, body{
     height:100%;
     font-family: Arial !important;
+    background-color: #ffea01 !important;
 }
 
 body {
@@ -15,7 +16,7 @@ a{
 .credits-block p{
     margin-bottom: 5px !important;
     letter-spacing: 1px;
-    color: #fd0f73;
+    color: #ff0000;
     text-align: center;
 }
 
@@ -40,7 +41,7 @@ a{
 }
 
 .social{
-    color: #fd0f73;
+    color: #ff0000;
     /*font-size: 0.75em;*/
     font-weight: bold;
     font-size: 12px;
@@ -49,7 +50,7 @@ a{
 }
 
 #name{
-    color: #fd0f73;
+    color: #ff0000;
     /*font-size: 0.75em;*/
     font-weight: bold;
     float: right;
@@ -99,7 +100,7 @@ a{
         padding-right:15px;
     }
     #perfume-img{
-        width: 100px;
+        width: 95px;
     }
 }
 @media (min-width: 325px){
@@ -177,7 +178,7 @@ a{
         width: 53%;
     }
     #perfume-img{
-        width: 150px;
+        width: 140px;
     }
 }
 
