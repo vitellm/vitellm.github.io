@@ -11,7 +11,6 @@ function changeImage()
     var img = document.getElementById('art');
     img.src = images[x];
     x++;
-    console.log(x);
     if(x >= images.length){
         x = 0;
     } 

@@ -17,7 +17,6 @@ a{
 }
 
 #title{
-    margin-top:26px;
     margin-bottom: 10px;
 }
 
@@ -141,10 +140,6 @@ a{
     #logo-date{
         width: 23%;
     }
-    #link-wrap{
-        margin: inherit;
-        padding-top: 0px;
-    }
 }
 
 @media (min-width: 850px){
@@ -165,7 +160,7 @@ a{
     }
 
     #logo-date{
-        width: 27%;
+        width: 15%;
     }
 }
 
