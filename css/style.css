@@ -66,27 +66,25 @@ a{
 }
 @media (min-width: 325px){
     .social{
-        font-size: 7px;
-        padding-right:15px;
+        font-size: 6px;
+        padding-right:10px;
     }
 }
 
 @media (min-width: 351px){
-    .social{
-        padding-right:20px;
-    }
+
 }
 
 @media (min-width: 370px){
-    .social{
-        font-size: 7.3px;
-        padding-right:20px;
-    }
     #art{
         width: 70%;
     }
     #logo-date{
         width: 40%;
+    }
+    .social{
+        font-size: 7px;
+        padding-right:15px;
     }
 }
 
@@ -110,7 +108,7 @@ a{
 
 @media (min-width: 521px){
     .social{
-        padding-right:30px;
+        padding-right:25px;
         letter-spacing: 1px;
     }
 }
