@@ -17,9 +17,8 @@ a{
 }
 
 #title{
-    margin-bottom:0px;
-    margin-top: 36px;
-    margin-bottom: 36px;
+    margin-top:26px;
+    margin-bottom: 10px;
 }
 
 #wrap{
@@ -33,7 +32,7 @@ a{
 }
 
 .social{
-    color: #171efd;
+    color: #000;
     /*font-size: 0.75em;*/
     font-weight: bold;
     font-size: 12px;
@@ -54,11 +53,15 @@ a{
         font-size: 6px;
         padding-right:10px;
     }
+    #link-wrap{
+        margin:0 auto;
+        padding-top: 5px;
+    }
     #art{
-        width: 88%;
+        width: 80%;
     }
     #logo-date{
-        width: 56%;
+        width: 52%;
     }
     
 }
@@ -80,17 +83,17 @@ a{
         font-size: 7.3px;
         padding-right:20px;
     }
+    #art{
+        width: 70%;
+    }
+    #logo-date{
+        width: 40%;
+    }
 }
 
 @media (min-width: 395px){
     .social{
         padding-right:20px;
-    }
-    #art{
-        width: 80%;
-    }
-    #logo-date{
-        width: 45%;
     }
 }
 
@@ -99,7 +102,7 @@ a{
         padding-right:24px;
     }
     #art{
-        width: 70%;
+        width: 65%;
     }
     #logo-date{
         width: 35%;
@@ -138,6 +141,10 @@ a{
     #logo-date{
         width: 23%;
     }
+    #link-wrap{
+        margin: inherit;
+        padding-top: 0px;
+    }
 }
 
 @media (min-width: 850px){
@@ -154,11 +161,11 @@ a{
 
 @media (min-width: 1100px){
     #art{
-        width: 32%;
+        width: 33%;
     }
 
     #logo-date{
-        width: 17%;
+        width: 27%;
     }
 }
 

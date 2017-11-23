@@ -15,7 +15,7 @@ function changeImage()
     if(x >= images.length){
         x = 0;
     } 
-    setTimeout("changeImage()", 3500);
+    setTimeout("changeImage()", 2500);
 }
 
 
