@@ -5,6 +5,6 @@ $(function() {
     }, 110000);
 
     setTimeout(function() {
-        $("#cath").hide('blind', {}, 296)
-    }, 2960);
+        $("#cath").hide('blind', {}, 290)
+    }, 2900);
 });
