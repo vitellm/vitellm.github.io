@@ -5,6 +5,7 @@ $(function() {
         $(".wrapper").hide('blind', {}, 16000)
     }, 160000);
 */
+
     setTimeout(function() {
         $("#cath").hide('blind', {}, 475)
     }, 4750);
