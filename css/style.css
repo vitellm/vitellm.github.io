@@ -15,6 +15,11 @@ html, body {
   overflow: hidden;
 }
 
+.row{
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+
 .valign {
     position: relative;
     top: 50%;
@@ -24,7 +29,7 @@ html, body {
 .wrapper {
   position: absolute;
   width:100%;
-  animation: 140s credits linear;   /*120*/
+  animation: 150s credits linear;   /*120*/
   animation-delay: 5.2s;
 }
 
@@ -35,7 +40,7 @@ html, body {
     text-decoration: none;
 }
 
-.job p, #albumtitle, .songtitle, .name p{
+.job p, #albumtitle, .songtitle, .name p, .artist{
     color: #f1d125;
     color:#fff;
 }
@@ -52,7 +57,7 @@ html, body {
 }
 .songtitle {
     margin: 0 auto;
-    padding-bottom: 40px;
+    
     padding-top: 75px;
     font-weight: bold;
 }
@@ -65,7 +70,10 @@ html, body {
     text-transform: uppercase;
 }
 
-.name {
+.artist{
+    margin: 0 auto;
+    padding-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .name p{
@@ -75,7 +83,7 @@ html, body {
 
 @keyframes credits {
     0% { top:  100%; }
-  100% { top: -600%; }
+  100% { top: -675%; }
 }
 
 
@@ -87,11 +95,11 @@ html, body {
 
 
 @media(min-width:0px){
-    .name p, .job p{
+    .artist, .name p, .job p{
         font-size: 10px;
     }
     .songtitle {
-        font-size: 28px;
+        font-size: 25px;
     }
     #cath{
         width:235px;
@@ -115,12 +123,12 @@ html, body {
     }
     .sidebar{
         margin-right: 10px !important;
-        margin-top: -100px;
+        margin-top: -65px;
     }
 }
 
 @media(min-width:400px){
-    .name p, .job p{
+    .artist, .name p, .job p{
         font-size: 12px;
     }
     .extra-pad{
@@ -130,7 +138,7 @@ html, body {
 
 
 @media(min-width:500px){
-    .name p, .job p{
+    .artist, .name p, .job p{
         font-size: 15px;
     }
     .songtitle {
@@ -165,7 +173,7 @@ html, body {
 
 
 @media(min-width:800px){
-    .name p, .job p{
+    .artist, .name p, .job p{
         font-size: 17px;
     }
     .extra-pad{

@@ -1,12 +1,12 @@
 $(function() {
 
     setTimeout(function() {
-        $(".wrapper").hide('blind', {}, 14000)
-    }, 140000);
+        $(".wrapper").hide('blind', {}, 16000)
+    }, 160000);
 
     setTimeout(function() {
-        $("#cath").hide('blind', {}, 490)
-    }, 4900);
+        $("#cath").hide('blind', {}, 479)
+    }, 4790);
 });
 
 //document.addEventListener('touchstart', this.touchstart);
