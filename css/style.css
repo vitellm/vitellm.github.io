@@ -29,7 +29,7 @@ html, body {
 .wrapper {
   position: absolute;
   width:100%;
-  animation: 150s credits linear;   /*120*/
+  animation: 223s credits linear;   /*120*/
   animation-delay: 5.2s;
 }
 
@@ -82,7 +82,7 @@ html, body {
 
 @keyframes credits {
     0% { top:  100%; }
-  100% { top: -675%; }
+  100% { top: -750%; }
 }
 
 
@@ -125,7 +125,7 @@ html, body {
         margin-top: -45px;
     }
     .social a{
-        font-size:10px;
+        font-size:9px;
     }
 }
 
@@ -171,7 +171,7 @@ html, body {
         margin-top: 0px;
     }
     .social a{
-        font-size:13px;
+        font-size:11px;
     }
 
 }
