@@ -1,5 +1,6 @@
 html, body{
     height:100%;
+    overflow: hidden;
     font-family: Arial !important;
 }
 
@@ -13,6 +14,7 @@ html, body {
   background-color: #000 !important;
   overflow: hidden;
 }
+
 .valign {
     position: relative;
     top: 50%;
@@ -22,13 +24,13 @@ html, body {
 .wrapper {
   position: absolute;
   width:100%;
-  /*font: 300 30px/1 'Open Sans Condensed', sans-serif;*/
   animation: 120s credits linear;
   animation-delay: 3.2s;
 }
 
 .job p, #albumtitle, .songtitle, .name p{
     color: #f1d125;
+    color:#fff;
 }
 
 #cath{
@@ -44,17 +46,9 @@ html, body {
     margin: 0 auto;
     padding-bottom: 40px;
     padding-top: 75px;
-    font-size: 33px;
     font-weight: bold;
 }
 .icon-link{
-    /*
-    width: 40px;
-    margin: 10px;
-    height: 40px;
-    margin-right: 25px;
-    */
-
     width: 40px;
     height: 40px;
     margin-right: 13px;
@@ -62,7 +56,6 @@ html, body {
 }
 .job p{
     text-align: right;
-    font-size: 21px;
     text-transform: uppercase;
 }
 
@@ -71,7 +64,6 @@ html, body {
 
 .name p{
     text-align: left;
-    font-size: 21px;
     text-transform: uppercase;
 }
 
@@ -85,3 +77,78 @@ html, body {
     0%  {opacity: 1}
     100% {opacity: 0}
 }
+
+
+
+@media(min-width:0px){
+    .name p, .job p{
+        font-size: 8px;
+    }
+    .songtitle {
+        font-size: 28px;
+    }
+    #cath{
+        width:275px;
+    }
+    .extra-pad{
+        margin-top: 32px;
+    }
+}
+
+@media(min-width:400px){
+    .name p, .job p{
+        font-size: 10px;
+    }
+    .extra-pad{
+        margin-top: 34px;
+    }
+}
+
+
+@media(min-width:500px){
+    .name p, .job p{
+        font-size: 13px;
+    }
+    .songtitle {
+        font-size: 33px;
+    }
+    #cath{
+        width:400px;
+    }
+    .extra-pad{
+        margin-top: 39px;
+    }
+}
+
+
+@media(min-width:800px){
+    .name p, .job p{
+        font-size: 21px;
+    }
+    .extra-pad{
+        margin-top: 49px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
