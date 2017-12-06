@@ -24,8 +24,15 @@ html, body {
 .wrapper {
   position: absolute;
   width:100%;
-  animation: 120s credits linear;
-  animation-delay: 3.2s;
+  animation: 140s credits linear;   /*120*/
+  animation-delay: 5.2s;
+}
+
+.social a, .social a:hover{
+    color: #fff;
+    writing-mode: tb-rl;
+    font-size:13px;
+    text-decoration: none;
 }
 
 .job p, #albumtitle, .songtitle, .name p{
@@ -35,6 +42,7 @@ html, body {
 
 #cath{
     animation: 3s logo linear;
+    animation-delay: 2s;
 }
 
 #albumtitle{
@@ -49,8 +57,6 @@ html, body {
     font-weight: bold;
 }
 .icon-link{
-    width: 40px;
-    height: 40px;
     margin-right: 13px;
     margin-bottom: 25px;
 }
@@ -82,7 +88,7 @@ html, body {
 
 @media(min-width:0px){
     .name p, .job p{
-        font-size: 8px;
+        font-size: 10px;
     }
     .songtitle {
         font-size: 28px;
@@ -93,40 +99,73 @@ html, body {
     .extra-pad{
         margin-top: 32px;
     }
+    .jobs{
+        padding-right:10px
+    }
+    .people{
+        padding-left: 10px
+    }
+    .icon-link{
+        width: 36px;
+        height: 36px;
+    }
+    .last-link{
+        margin-right: 20px;
+    }
+    .sidebar{
+        margin-right: 10px !important;
+    }
 }
 
 @media(min-width:400px){
     .name p, .job p{
-        font-size: 10px;
+        font-size: 12px;
     }
     .extra-pad{
-        margin-top: 34px;
+        margin-top: 36.5px;
     }
 }
 
 
 @media(min-width:500px){
     .name p, .job p{
-        font-size: 13px;
+        font-size: 15px;
     }
     .songtitle {
-        font-size: 33px;
+        font-size: 30px;
     }
     #cath{
         width:400px;
     }
     .extra-pad{
-        margin-top: 39px;
+        margin-top: 41px;
     }
+    .jobs{
+        padding-right:25px
+    }
+    .people{
+        padding-left: 25px
+    }
+    .icon-link{
+        width: 40px;
+        height: 40px;
+    }
+    .last-link{
+        margin-right: 35px;
+    }
+    .sidebar{
+        margin-right:30px !important;
+    }
+
 }
 
 
 @media(min-width:800px){
     .name p, .job p{
-        font-size: 21px;
+        font-size: 17px;
     }
     .extra-pad{
-        margin-top: 49px;
+        margin-top: 44px;
     }
 }
 
