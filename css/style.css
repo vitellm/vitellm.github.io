@@ -36,7 +36,6 @@ html, body {
 .social a, .social a:hover{
     color: #fff;
     writing-mode: tb-rl;
-    font-size:13px;
     text-decoration: none;
 }
 
@@ -123,7 +122,10 @@ html, body {
     }
     .sidebar{
         margin-right: 10px !important;
-        margin-top: -65px;
+        margin-top: -15px;
+    }
+    .social a{
+        font-size:10px;
     }
 }
 
@@ -167,6 +169,9 @@ html, body {
     .sidebar{
         margin-right:30px !important;
         margin-top: 0px;
+    }
+    .social a{
+        font-size:13px;
     }
 
 }
