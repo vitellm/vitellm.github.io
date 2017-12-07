@@ -12,7 +12,7 @@ $(function() {
 });
 
 //document.addEventListener('touchstart', this.touchstart);
-document.addEventListener('touchmove', this.touchmove);
+//document.addEventListener('touchmove', this.touchmove);
 
 
 
