@@ -1,19 +1,8 @@
 
 $(function() {
-
-/*
-    setTimeout(function() {
-        $(".wrapper").hide('blind', {}, 16000)
-    }, 160000);
-*/
-	var video = document.getElementById('vid1');
-
-	video.addEventListener('loadeddata', function() {
-  		console.log("loaded vid");
-  		setTimeout(function() {
-        	$("#vid1").hide('blind', {}, 21300)
-    	}, 213000);
-	}, false);
+  	setTimeout(function() {
+        $("#vid1").hide('blind', {}, 21400)
+    }, 214000);
 
     setTimeout(function() {
         $("#cath").hide('blind', {}, 475)
