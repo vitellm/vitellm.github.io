@@ -1,7 +1,8 @@
 $("#vid1").on("loadstart", function () {
+	console.log("loaded vid")
 	setTimeout(function() {
-        $("#vid1").hide('blind', {}, 21320)
-    }, 213200);
+        $("#vid1").hide('blind', {}, 21300)
+    }, 213000);
 });
 
 $(function() {
