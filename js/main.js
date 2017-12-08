@@ -1,3 +1,9 @@
+$("#vid1").on("loadstart", function () {
+	setTimeout(function() {
+        $("#vid1").hide('blind', {}, 21200)
+    }, 212000);
+});
+
 $(function() {
 
 /*
@@ -9,6 +15,8 @@ $(function() {
     setTimeout(function() {
         $("#cath").hide('blind', {}, 475)
     }, 4750);
+
+
 });
 
 //document.addEventListener('touchstart', this.touchstart);
@@ -19,3 +27,7 @@ document.addEventListener('touchmove', this.touchmove);
 function touchmove(e) {
     e.preventDefault()
 }
+
+
+//hide video after it runs
+//

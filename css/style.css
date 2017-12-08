@@ -102,16 +102,13 @@ html, body {
 
 @keyframes credits {
     0% { top:  100%; }
-  100% { top: -900%; }
+  100% { top: -7100px; }
 }
-
 
 @keyframes logo {
     0%  {opacity: 1}
     100% {opacity: 0}
 }
-
-
 
 @media(min-width:0px){
     .artist, .name p, .job p{
