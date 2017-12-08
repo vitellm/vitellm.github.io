@@ -100,11 +100,6 @@ html, body {
     text-transform: uppercase;
 }
 
-@keyframes credits {
-    0% { top:  100%; }
-  100% { top: -7100px; }
-}
-
 @keyframes logo {
     0%  {opacity: 1}
     100% {opacity: 0}
@@ -147,6 +142,10 @@ html, body {
     }
     .catico{
         margin-left:10px !important;
+    }
+    @keyframes credits {
+        0% { top:  100%; }
+        100% { top: -5200px; }
     }
 }
 
@@ -197,6 +196,10 @@ html, body {
     }
     .catico{
         margin-left:55px !important;
+    }
+    @keyframes credits {
+        0% { top:  100%; }
+        100% { top: -7100px; }
     }
 
 }
