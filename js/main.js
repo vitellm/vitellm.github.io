@@ -1,7 +1,7 @@
 $("#vid1").on("loadstart", function () {
 	setTimeout(function() {
-        $("#vid1").hide('blind', {}, 21300)
-    }, 213000);
+        $("#vid1").hide('blind', {}, 21320)
+    }, 213200);
 });
 
 $(function() {

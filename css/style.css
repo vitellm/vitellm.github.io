@@ -145,7 +145,7 @@ html, body {
     }
     @keyframes credits {
         0% { top:  100%; }
-        100% { top: -6000px; }
+        100% { top: -5800px; }
     }
 }
 
