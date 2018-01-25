@@ -1,0 +1,251 @@
+﻿@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url("//themes.googleusercontent.com/static/fonts/opensans/v6/u-WUoqrET9fUeobQW7jkRT8E0i7KZn-EPnyo3HZu7kw.woff") format('woff');
+}
+
+/* Zooms out all content on page by 10% */
+body {
+    -moz-transform: scale(0.9, 0.9); /* Moz-browsers */
+    zoom: 0.9; /* Other non-webkit browsers */
+    zoom: 90%; /* Webkit browsers */
+}
+
+
+.fb-share-button.fb_iframe_widget span iframe{
+    height:1000px !important;
+    width:1000px !important;
+}
+/*------------------------App Download Buttons------------------------------*/
+
+.download-btn{
+    float:left;
+}
+.download-btn li {
+  display: inline-block;
+}
+.download-btn li a {
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 10px 28px 13px;
+  font-size: 18px;
+}
+.download-btn li a i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.download-btn li .btn-apple {
+  background: #8883bc;
+  border: 1px solid transparent;
+  -webkit-transition: .2s all;
+  -o-transition: .2s all;
+  transition: .2s all;
+}
+.download-btn li .btn-apple:hover {
+  color: #8883bc;
+  background: #fff;
+  border: 1px solid #8883bc;
+}
+.download-btn li .btn-andriod {
+  background: #6fbf39;
+  border: 1px solid transparent;
+  -webkit-transition: .2s all;
+  -o-transition: .2s all;
+  transition: .2s all;
+}
+.download-btn li .btn-andriod:hover {
+  color: #6fbf39;
+  background: #fff;
+  border: 1px solid #6fbf39;
+}
+.download-btn li .btn-learn {
+  background: #6fbf39;
+  border: 1px solid transparent;
+  -webkit-transition: .2s all;
+  -o-transition: .2s all;
+  transition: .2s all;
+}
+.download-btn li .btn-learn:hover {
+  color: #6fbf39;
+  background: #fff;
+  border: 1px solid #6fbf39;
+}
+
+
+
+
+
+
+/*------------------------Team Members Page------------------------------*/
+
+#team_image {
+    display: block;
+    margin: 0 auto;
+    -webkit-filter: drop-shadow(3px 3px 3px #222);
+}
+
+#team_title {
+    text-align: center;
+    color: #666;
+}
+
+#team_name {
+    text-align: center;
+    color: #333;
+}
+
+#item1,
+#item1:hover,
+#item1:active,
+#item1:visited,
+#item2,
+#item2:hover,
+#item2:active,
+#item2:visited,
+#item3,
+#item3:hover,
+#item3:active,
+#item3:visited,
+#item4,
+#item3:hover,
+#item3:active,
+#item3:visited {
+    text-decoration: none;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+#nav-image {
+    max-width: 30%;
+    height: auto;
+    width: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.nav-item {
+    font-size: 18px !important;
+    color: #6d8b1d !important;
+}
+
+    .nav-item:hover {
+        color: #333 !important;
+        background: none !important;
+    }
+
+.home-br {
+}
+
+.mobile-br {
+    display: none;
+}
+
+#mobile-nav {
+    background-color: white;
+}
+
+@media (min-width:0px) {
+    #desktop-nav {
+        padding-right: 0px;
+    }
+    .tabs-text{
+        font-size:0.7em;
+    }
+     .home-br-2{
+        line-height: 24.5px;
+     }
+    #app-btn-mobile{
+        display: none
+    }
+    #app-btn{
+        display:none;
+    }
+         #app-btn-mobile-2{
+         display:block;
+     }
+
+}
+
+@media (min-width:550px){
+     .tabs-text{
+        font-size:1em;
+    }
+    #insulin-iframe {
+        height: 3000px;
+    }
+}
+
+@media (min-width:990px) {
+     .home-br-2{
+        line-height: 80px;
+     }
+     #app-btn-mobile-2{
+         display:none;
+     }
+     #app-btn-mobile{
+        display: block;
+    }
+    #insulin-iframe {
+        height: 2400px;
+    }
+}
+
+@media (min-width:1200px) {
+    #desktop-nav {
+        padding-right: 170px;
+    }
+
+    #homepage-image {
+        padding-right: 60px;
+    }
+
+    #insulin-iframe {
+        height: 2000px;
+    }
+    .tabs-text{
+        font-size:1.7em;
+    }
+    .home-br-2{
+        line-height:70px;
+    }
+    #app-btn-mobile{
+        display: none
+    }
+    #app-btn{
+        display:block;
+    }
+
+}
+
+@media (min-width:1230px) {
+    #desktop-nav {
+        padding-right: 140px;
+    }
+}
+
+@media (min-width:1270px) {
+    #desktop-nav {
+        padding-right: 90px;
+    }
+}
+
+@media (min-width:1310px) {
+    #desktop-nav {
+        padding-right: 50px;
+    }
+}
+
+@media (min-width:1350px) {
+    #desktop-nav {
+        padding-right: 0px;
+    }
+
+    #homepage-image {
+        padding-right: 0px;
+    }
+}
