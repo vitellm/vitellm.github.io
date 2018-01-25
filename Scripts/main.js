@@ -1,4 +1,11 @@
 ﻿//Change opacity of hompage sections
+$(document).ready(function () {
+    var currentTime = new Date();
+    var year = currentTime.getFullYear();
+    var phrase = "© " + year + " LivProactiv, Inc.";
+    console.log(phrase);
+    $(".copyright").text(phrase);
+});
 
 
 $('#item1').click(function () {
